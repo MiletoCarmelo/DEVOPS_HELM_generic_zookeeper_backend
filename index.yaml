@@ -3,6 +3,15 @@ entries:
   generic-zookeeper-backend:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-12-02T22:13:20.752295305Z"
+    description: A Helm chart for ZooKeeper
+    digest: ef7a86278dc15e0f89064a0258d96be3a44138208bf5168525bebd7ed279bfe6
+    name: generic-zookeeper-backend
+    urls:
+    - https://raw.githubusercontent.com/MiletoCarmelo/DEVOPS_HELM_generic_zookeeper_backend/github-pages/generic-zookeeper-backend-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-12-02T22:12:46.78412757Z"
     description: A Helm chart for ZooKeeper
     digest: 2889a519f9a1fd70b2535725bf67defdb7d6f1c34c782fa5b75b15a4671a166c
@@ -19,4 +28,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/MiletoCarmelo/DEVOPS_HELM_generic_zookeeper_backend/github-pages/generic-zookeeper-backend-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-02T22:12:46.783110239Z"
+generated: "2024-12-02T22:13:20.751376253Z"
