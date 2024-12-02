@@ -22,6 +22,6 @@ service:
   port: 2181
   targetPort: 2181
 
-persistence:
-  enabled: true
-  size: 5Gi
+# persistence:
+#   enabled: true
+#   size: 5Gi
