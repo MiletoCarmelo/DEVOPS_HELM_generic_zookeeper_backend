@@ -28,15 +28,3 @@ spec:
               value: "yes"
           resources:
             {{- toYaml .Values.containers.resources | nindent 12 }}
-          # volumeMounts:
-          #   - name: data
-          #     mountPath: /bitnami/zookeeper
-  # volumeClaimTemplates:
-  #   - metadata:
-  #       name: data
-  #     spec:
-  #       accessModes: [ "ReadWriteOnce" ]
-  #       resources:
-  #         requests:
-  #           storage: {{ .Values.persistence.size }}
-  # 
