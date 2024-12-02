@@ -1,0 +1,6 @@
+# Chart.yaml
+apiVersion: v2
+name: generic-zookeeper-backend
+description: A Helm chart for ZooKeeper
+version: 0.1.0
+appVersion: "1.0.0"
